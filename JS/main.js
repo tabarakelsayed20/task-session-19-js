@@ -27,5 +27,7 @@ function validateData(){
     }else if(pass != confirm){
         result.innerHTML = "Enter confirm password ";
         return false;
+    }else{
+        return true;
     }
 }
