@@ -9,7 +9,7 @@ function validateData(){
     var confirm = document.getElementById("confirm").value;
     var result = document.getElementById("result");
 
-    result.setAttribute("class alert alert-danger text-center about")
+    result.setAttribute("class"," alert alert-danger text-center about")
 
 
     if(user =="" && email =="" && pass =="" && confirm ==""){
